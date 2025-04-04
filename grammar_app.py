@@ -85,7 +85,7 @@ def main():
 if __name__ == "__main__":
     main()
 
-!pip install -q pyngrok
+
 
 from pyngrok import ngrok
 
