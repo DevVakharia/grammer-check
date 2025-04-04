@@ -93,10 +93,10 @@ from pyngrok import ngrok
 ngrok.set_auth_token("2vG19a5RFPiVhYkc3BaYYCXJ2Ll_zh1oCYmGkdTrSUF5UhBX")  
 
 # Kill any existing Streamlit instances
-!pkill streamlit
+    !pkill streamlit
 
 # Run Streamlit in background
-!streamlit run grammar_app.py --server.port 8501 --theme.base light &
+    !streamlit run grammar_app.py --server.port 8501 --theme.base light &
 
 # Setup ngrok tunnel
 public_url = ngrok.connect(addr="8501")
